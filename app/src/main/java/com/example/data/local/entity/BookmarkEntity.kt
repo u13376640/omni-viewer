@@ -1,0 +1,14 @@
+package com.example.data.local.entity
+
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+@Entity(tableName = "bookmarks")
+data class BookmarkEntity(
+    @PrimaryKey(autoGenerate = true)
+    val id: Long = 0,
+    val mediaId: String,
+    val pageIndex: Int,
+    val title: String = "",
+    val timestamp: Long = System.currentTimeMillis()
+)

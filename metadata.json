@@ -1,0 +1,6 @@
+{
+  "name": "OmniViewer",
+  "description": "Modern elegant manga/comic, photo, and video viewer supporting JPG, PNG, PDF, and MP4 with local media and Jellyfin streaming.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
